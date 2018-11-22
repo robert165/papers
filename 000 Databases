@@ -8,11 +8,48 @@ e  SAL  [6],  SEMAINE  [20],  MAHNOB-HCI
 1, Belfast induced [27], DEAP [13],
 RECOLA [25], SEWA
 
-video, 
-ImageNet VID [26] and YouTube Bounding Boxes [24] (YTBB).
+
+视频对象, 
+ImageNet Video [26] and YouTube Bounding Boxes [24] (YTBB) OTB [4, 5] and VOT [6–11]  
 ImageNet VID contains 20 classes and almost four
 thousand videos, with every object instance annotated in every frame. YTBB
 contains 23 classes and 240k videos from YouTube, with a single instance of each
 class annotated once per second for up to twenty seconds. YTBB specifically aims
 to comprise videos “in the wild” by considering only those with 100 views or less
 on  YouTube.  
+
+Numerous datasets are available for object track-
+ing, the most common ones being OTB [5], VOT [6], ALOV300 [17] and TC128
+[37] for single-object tracking and MOT [18, 16] for multi-object tracking.
+VIVID
+[38]  is  an  early  attempt  to  build  a  tracking  dataset  for  surveillance  purposes.
+OTB50
+[4] and
+OTB100
+[5] provide 51 and 98 video sequences annotated with
+11 different attributes and upright bounding boxes for each frame.
+TC128
+[37]
+comprises 129 videos, based on similar attributes and upright bounding boxes.
+ALOV300
+[17]  comprises  314  videos  sequences  labelled  with  14  attributes.
+VOT
+[6]  proposes  several  challenges  with  up  to  60  video  sequences.  It  intro-
+duced  rotated  bounding  boxes  as  well  as  extensive  studies  on  object  tracking
+annotations.
+VOT-TIR
+is  a  specific  dataset  from  VOT  focusing  on  Thermal
+InfraRed  videos.
+NUS  PRO
+[39]  gathers  an  application-specific  collection  of
+365  videos  for  people  and  rigid  object  tracking.
+UAV123
+and
+UAV20L
+[40]
+gather another application-specific collection of 123 videos and 20 long videos
+captured from a UAV or generated from a flight simulator.
+NfS
+[41] provides a
+set of 100 videos with high framerate, in an attempt to focus on fast motion.
+Table 1 provides a detailed overview of the most popular tracking dataset
