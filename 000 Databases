@@ -7,3 +7,12 @@ e  SAL  [6],  SEMAINE  [20],  MAHNOB-HCI
 [28], Belfast naturalistic
 1, Belfast induced [27], DEAP [13],
 RECOLA [25], SEWA
+
+video, 
+ImageNet VID [26] and YouTube Bounding Boxes [24] (YTBB).
+ImageNet VID contains 20 classes and almost four
+thousand videos, with every object instance annotated in every frame. YTBB
+contains 23 classes and 240k videos from YouTube, with a single instance of each
+class annotated once per second for up to twenty seconds. YTBB specifically aims
+to comprise videos “in the wild” by considering only those with 100 views or less
+on  YouTube.  
